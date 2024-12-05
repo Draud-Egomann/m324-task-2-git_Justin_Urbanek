@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>m324-task-2-git_Justin_Urbanek</h1>
+<h2>Overview</h2>
+<p>This project provides a Python script that converts a Markdown file into an HTML file, applying a <code>main.css</code> stylesheet to the output HTML. The generated HTML is properly structured with <code>DOCTYPE</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags, making it a valid HTML5 document.</p>
+<h2>Setup</h2>
+<h3>Pre-requisites</h3>
+<ol>
+<li><strong>Python 3.x</strong> installed on your system.</li>
+<li><strong><code>markdown</code> Python package</strong> installed.</li>
+</ol>
+<h3>Installation</h3>
+<ol>
+<li>
+<p><strong>Clone the repository</strong></p>
+<p><code>bash
+git clone https://github.com/Draud-Egomann/m324-task-2-git_Justin_Urbanek.git
+cd m324-task-2-git_Justin_Urbanek</code></p>
+</li>
+<li>
+<p><strong>Create a virtual environment</strong> (optional but recommended for managing dependencies):</p>
+<p><code>bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`</code></p>
+</li>
+<li>
+<p><strong>Install dependencies</strong>:</p>
+<p>The script requires the <code>markdown</code> library to convert Markdown to HTML. Install it with pip:</p>
+<p><code>bash
+pip install markdown</code></p>
+</li>
+<li>
+<p><strong>Prepare the <code>main.css</code> file</strong>:</p>
+<p>The script expects a <code>main.css</code> file to be present in the same directory as the generated HTML file. You can customize your own <code>main.css</code> file or use a basic one with styles for headers, paragraphs, and other elements.</p>
+</li>
+</ol>
+<h3>Usage</h3>
+<p>To run the script, use the following command:</p>
+<p><code>bash
+python script.py -i input.md -o output.html</code></p>
+</body>
+</html>
