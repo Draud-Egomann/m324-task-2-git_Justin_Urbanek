@@ -13,7 +13,7 @@ This project provides a Python script that converts a Markdown file into an HTML
 
 ### Installation
 
-1. **Clone the repository** (if applicable) or create a project directory.
+1. **Clone the repository**
 
     ```bash
     git clone https://github.com/Draud-Egomann/m324-task-2-git_Justin_Urbanek.git
