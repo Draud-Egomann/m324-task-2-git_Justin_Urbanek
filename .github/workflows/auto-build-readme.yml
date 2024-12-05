@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'  # Use the Python version you need
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
@@ -25,7 +25,7 @@ jobs:
 
     - name: Run md2html.py to convert README.md to HTML
       run: |
-        python md2html.py -i README.md
+        python md2html.py -i README.md -o README.html
 
     - name: Commit and push HTML changes
       run: |
