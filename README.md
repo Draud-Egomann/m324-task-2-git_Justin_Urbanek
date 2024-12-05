@@ -6,9 +6,7 @@ This project provides a Python script that converts a Markdown file into an HTML
 
 ## Setup
 
-### Requirements
-
-Before running the script, ensure you have the following:
+### Pre-requisites
 
 1. **Python 3.x** installed on your system.
 2. **`markdown` Python package** installed.
