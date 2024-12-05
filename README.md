@@ -41,8 +41,6 @@ Before running the script, ensure you have the following:
 
     The script expects a `main.css` file to be present in the same directory as the generated HTML file. You can customize your own `main.css` file or use a basic one with styles for headers, paragraphs, and other elements.
 
-5. **Ensure the `main.css` file is in the same directory** as the script or specify its path in the script.
-
 ### Usage
 
 To run the script, use the following command:
